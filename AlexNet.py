@@ -1,4 +1,4 @@
-# 2022/6/9 AlexNet
+# 2022/6/19 AlexNet
 
 import torch.nn as nn
 import torch
