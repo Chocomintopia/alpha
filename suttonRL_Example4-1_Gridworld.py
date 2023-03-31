@@ -44,7 +44,7 @@ while True:
             # 左下角
             elif i==m-1 and j==0:
                 value[i,j] = 0.25 * ( value[i,j] + value[i,j+1] + value[i-1,j] + value[i,j] - 4.0)
-            # 右上角-
+            # 右上角
             elif i==0 and j==n-1:
                 value[i,j] = 0.25 * ( value[i,j-1] + value[i,j] + value[i,j] + value[i+1,j] - 4.0)
             # 上侧边界
